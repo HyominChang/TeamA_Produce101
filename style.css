@@ -1,0 +1,159 @@
+#graphic {
+	position: relative;
+	background-color: #f3f3f3;
+	padding: 1rem;
+}
+
+/* #graphic>* {
+	-webkit-box-flex: 12;
+	-ms-flex: 12;
+	flex: 1;
+} */
+
+
+/* #graphic {
+
+	max-width: 20rem;
+} */
+
+#vis {
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	background-color: #8a8a8a;
+	z-index: 0;
+}
+
+#vis p {
+	text-align: center;
+	padding: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 8rem;
+	font-weight: 900;
+	color: #fff;
+}
+
+
+.step {
+	margin: 0 auto 2rem auto;
+	background-color: #3b3b3b;
+	color: #fff;
+}
+
+.step:last-child {
+	margin-bottom: 0;
+}
+
+.step.is-active {
+	background-color: goldenrod;
+	color: #3b3b3b;
+}
+
+.step p {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.container {
+  width: 100vw;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+#graphic {
+  width: 100vw;
+  padding-top: 60px;
+  margin-right: 50px;
+}
+
+.x_axis path, .x_axis line{
+  display: none;
+}
+
+.x_axis text {
+  font-size: 16px;
+}
+
+.bar_text {
+  font-size: 30px;
+  text-anchor: middle;
+}
+
+.note {
+  font-size: 10px;
+  font-style: italic;
+  line-height: 12px;
+}
+
+#sections {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  top: 0px;
+  float: right;
+  z-index: 90;
+  padding-bottom: 200px;
+  margin-right: 200px;
+}
+
+.step {
+  margin-bottom: 100px;
+  padding-top: 200px;
+  font-family: "TiemposTextWeb-Regular","Georgia";
+  font-size: 16px;
+  line-height: 23px;
+  color: #767678;
+}
+
+.stepborder{
+  border: 5pt groove #3f51b5;
+}
+
+#sections .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-bottom: 2px;
+  margin: 10px;
+  color: #262626;
+  line-height: 1.2em;
+}
+
+#sections .stepborder span{
+  display: table-cell;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+#extra-space {
+  width: 100vw;
+  height: 300px;
+}
+
+#vis {
+  background-color: red;
+  display: inline-block;
+  position: fixed;
+  top: auto;
+  z-index: 1;
+  margin-left: 100px;
+  height: 900px;
+  width: 900px;
+  background-color: #ddd;
+}
+
+.highlight {
+  fill: #008080;
+  font-weight: bold;
+}
